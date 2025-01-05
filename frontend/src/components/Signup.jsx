@@ -8,7 +8,7 @@ import toast from 'react-hot-toast'
 const Signup = () => {
   const loaction=useLocation();
   const navigate=useNavigate();
-  constfrom=location.state?.from?.pathname || "/"
+  const from=location.state?.from?.pathname || "/"
     const {
             register,
             handleSubmit,
